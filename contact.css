@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box
+    font-family:Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 50px;
+    background-color: #1c1c1c;
+}
+
+.logo {
+    color: gold;
+    font-size: 24px;
+    font-weight: bold;
+     
+}
+
+.navbar ul {
+    list-style:none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+.mobile {
+    text-align: center;
+    padding: 80px;
+    font-size:x-large;
+}
+
